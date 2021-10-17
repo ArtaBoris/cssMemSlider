@@ -111,9 +111,9 @@ body{
  z-index: 1;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 768px){
     .wrapper {
-        height: 500px;
+        height: 400px;
         width: 100%;
         margin: 50px auto 0;
         position: relative;
@@ -132,5 +132,14 @@ body{
     }
     .bottom{
         flex-direction: column-reverse;
+    }
+    .slider{
+        left: 50px;
+    }
+    .bottom .slider_txt{
+        left: 50px;
+    }
+    .bottom .control{
+        left: 0%;
     }
 }
